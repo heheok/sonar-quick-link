@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Sonarcloud Direct Link Plugin",
+    "description": "This extension will open Sonarcloud URL for the related branch",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
